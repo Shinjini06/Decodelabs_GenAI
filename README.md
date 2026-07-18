@@ -57,11 +57,6 @@ python run.py --product "Eco Water Bottle" --tone "casual"
 git clone https://github.com/Shinjini06/Decodelabs_GenAI.git
 pip install -r requirements.txt
 ```
-
-## 📄 License
-
-MIT License
-
 ---
 
 **Author:** Shinjini | **Status:** Production Ready | **Last Updated:** July 2026
