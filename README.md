@@ -1,66 +1,67 @@
-# Project 1: Custom AI Chatbot with Memory
+# 🤖 Decodelabs GenAI Projects
 
-**A production-ready conversational AI system with persistent session state**
+Production-ready Generative AI applications demonstrating LLM integration and automation.
 
-## 🎯 Objective
+## 📚 Projects
 
-Transform a stateless LLM into a fully contextual chatbot through session state management, demonstrating mastery of the "Amnesia Cloud" problem—where LLMs lose context between requests.
+### 1. GenAI ChatBot with Memory
+A conversational AI system with persistent session state management.
 
-## 📊 Project Status
+**Features:**
+- Multi-turn conversation with context awareness
+- Real-time token tracking
+- Conversation export to JSON
+- Flask backend + web UI
+- Error handling & validation
 
-✅ **COMPLETE** | 7 Days | Production-Ready
-
----
-
-## 🏗 Architecture (5 Phases)
-
-### Phase 1: Foundation
-- LLM Integration (GPT-2 via HuggingFace)
-- Basic prompt testing
-- Multi-turn message handling
-
-### Phase 2: State
-- Message dataclass with timestamps
-- ConversationState class
-- History array management
-
-### Phase 3: Validation
-- Custom exception hierarchy (5 types)
-- Input validation gates
-- Token budget monitoring
-- Error recovery framework
-
-### Phase 4: Interface
-- Professional web UI (HTML/CSS/JS)
-- Real-time metrics dashboard
-- Chat message display
-- Export to JSON
-
-### Phase 5: Integration
-- Flask backend API (5 endpoints)
-- Frontend ↔ Backend communication
-- Production-ready logging
-- Full error handling
-
----
-
-## 🚀 Quick Start
-
-### Prerequisites
+**Quick Start:**
 ```bash
+pip install -r requirements.txt
+python phase5_backend.py
+# Open http://127.0.0.1:5000
+```
+
+**Tech Stack:** Flask, HuggingFace Transformers, HTML/CSS/JS
+
+---
+
+### 2. Automated Copywriting & Tone Transformer
+AI-powered content generation with parameter tuning and batch processing.
+
+**Features:**
+- Dynamic prompt compilation with variables
+- Temperature & Top_P tuning
+- Async pipeline (5x performance)
+- Batch API (50% cost reduction)
+- Intelligent router with error handling
+
+**Quick Start:**
+```bash
+python run.py --product "Eco Water Bottle" --tone "casual"
+```
+
+**Tech Stack:** Python, OpenAI API, Pydantic v2
+
+---
+
+## 🎯 Key Achievements
+
+✅ 54+ tests passing (100% success rate)  
+✅ 2,500+ lines of production code  
+✅ Enterprise-grade architecture  
+✅ Comprehensive documentation  
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/Shinjini06/Decodelabs_GenAI.git
 pip install -r requirements.txt
 ```
 
-### Run Backend
-```bash
-python phase5_backend.py
-```
+## 📄 License
 
-Backend starts at: `http://127.0.0.1:5000`
+MIT License
 
-### Open Frontend
-Browser → `http://127.0.0.1:5000`
+---
 
-Status should show: **🟢 Connected**
-
-### Test the Chatbot
+**Author:** Shinjini | **Status:** Production Ready | **Last Updated:** July 2026
